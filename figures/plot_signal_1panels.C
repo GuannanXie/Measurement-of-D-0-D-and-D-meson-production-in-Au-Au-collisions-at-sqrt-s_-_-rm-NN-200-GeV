@@ -42,7 +42,7 @@ void plot_signal_1panels()
 
    //fit and plot
    // TCanvas *c1 = new TCanvas("c1", "c1", 10, 10, 1100/3.*1.3, 450*1.3);
-   TCanvas *c1 = new TCanvas("c1", "c1", 10, 10, 650, 650);
+   TCanvas *c1 = new TCanvas("c1", "c1", 10, 10, 800, 800);
    gStyle->SetOptFit(0);
    gStyle->SetOptStat(0);
    gStyle->SetEndErrorSize(0.01);
@@ -215,7 +215,7 @@ void plot_signal_1panels()
       if (i == 0) drawLatex(0.22, 0.81, Form("%.1f < p_{T} < %.1f GeV/c", pt1[i], pt2[i]), 42, 0.047, 1);
 
       drawLatex(0.70, 0.81, Form("%s", nameCent[i]), 42, 0.047, 4);
-      // drawLatex(0.70, 0.50, Form("D^{0}"), 42, 0.065, 1);
+      drawLatex(0.70, 0.50, Form("D^{0}"), 42, 0.045, 1);
 
       // if (i == 1)
       {
