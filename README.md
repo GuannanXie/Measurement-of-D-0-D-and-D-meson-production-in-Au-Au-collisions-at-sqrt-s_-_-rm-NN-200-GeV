@@ -10,4 +10,5 @@
 - Paper draft.  
     ```bash
     cd ../paper
+    pdflatex Dmeson.tex
     ```
