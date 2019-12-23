@@ -40,7 +40,7 @@ void setpad(TPad *pad, float left, float right, float top, float bottom)
    pad->SetBottomMargin(bottom);
 }
 
-void plot_RAA()
+void plot_RAA_3panels()
 {
    // globalSetting();
    char dir[250];
