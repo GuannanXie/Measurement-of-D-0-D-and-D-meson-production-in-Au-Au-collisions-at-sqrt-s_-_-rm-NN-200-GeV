@@ -2,7 +2,7 @@
 
 - Analysis note.  
     ```bash
-    git clone git@github.com:GuannanXie/Measurement-of-D-0-D-and-D-meson-production-in-Au-Au-collisions-at-sqrt-s_-_-rm-NN-200-GeV.git
+    git clone git@github.com:GuannanXie/Measurement-of-D0-Dplus-and-Dstar-meson-production-in-Au-Au-collisions-at-sNN-200-GeV.git
     cd ../note
     make
     ```
