@@ -286,7 +286,7 @@ void plot_signal_1panels()
       // drawLatex(0.85, 0.35, Form("%s", abc[i]), 42, 0.073, 1);
    }
 
-   c1->SaveAs("Fig/signal_1panel.pdf");
-   c1->SaveAs("Fig/signal_1panel.png");
+   c1->SaveAs("Fig/fig1_signal_1panel.pdf");
+   c1->SaveAs("Fig/fig1_signal_1panel.png");
 
 }
