@@ -184,8 +184,8 @@ void plot_RAA_1panels()
 
    c1->Update();
 
-   c1->SaveAs("Fig/RAA_1panel.pdf");
-   c1->SaveAs("Fig/RAA_1panel.png");
+   c1->SaveAs("Fig/fig4_RAA_1panel.pdf");
+   c1->SaveAs("Fig/fig4_RAA_1panel.png");
 
 
 }

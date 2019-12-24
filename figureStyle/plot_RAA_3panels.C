@@ -466,6 +466,6 @@ void plot_RAA_3panels()
    c1->cd();
    c1->Update();
 
-   c1->SaveAs("./Fig/D0_RAA_3panel.pdf");
-   c1->SaveAs("./Fig/D0_RAA_3panel.png");
+   c1->SaveAs("Fig/fig4_RAA_3panel.pdf");
+   c1->SaveAs("Fig/fig4_RAA_3panel.png");
 }
