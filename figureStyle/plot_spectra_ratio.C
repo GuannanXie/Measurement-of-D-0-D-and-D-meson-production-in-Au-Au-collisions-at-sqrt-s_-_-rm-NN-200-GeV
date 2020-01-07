@@ -47,7 +47,8 @@ void plot_spectra_ratio()
   TH1D *h_p_LHC = (TH1D *)f_p->Get("Pythia_Monash_tune_7TeV");
   TGraphAsymmErrors *gr_pp7TeV = (TGraphAsymmErrors *)f_p->Get("pp7GeV");  
 
-  TCanvas *c1 = new TCanvas("c1", "c1",0,0,800,800);
+  // TCanvas *c1 = new TCanvas("c1", "c1",0,0,800,800);
+  TCanvas *c1 = new TCanvas("c1", "c1",0,0,800,600);
   gStyle->SetOptFit(0);
   gStyle->SetOptStat(0);
   gStyle->SetEndErrorSize(0.001);

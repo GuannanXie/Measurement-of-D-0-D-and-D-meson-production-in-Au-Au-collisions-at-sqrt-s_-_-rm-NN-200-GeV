@@ -45,7 +45,8 @@ void plot_RAA_1panels()
 
    }
 
-   TCanvas *c1 = new TCanvas("c1", "c1", 0, 0, 800, 800);
+   // TCanvas *c1 = new TCanvas("c1", "c1", 0, 0, 800, 800);
+   TCanvas *c1 = new TCanvas("c1", "c1", 0, 0, 800, 600);
    gStyle->SetOptFit(0);
    gStyle->SetOptStat(0);
    gStyle->SetEndErrorSize(0.001);
